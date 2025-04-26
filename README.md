@@ -16,7 +16,8 @@ LocaConnect-ContactUs/
 ## How to Use
 1. Clone or download the project folder.
 2. Open `contact-us.html` in a web browser to view the page.
-3. Ensure all assets (CSS, JS, images) are in the correct paths as specified in the HTML.
+3. Or visit the live page: [https://elkhateb639.github.io/LocaConnect-ContactUs/](https://elkhateb639.github.io/LocaConnect-ContactUs/)
+4. Ensure all assets (CSS, JS, images) are in the correct paths as specified in the HTML.
 
 ## Features
 - Responsive design for all screen sizes (mobile, tablet, desktop).
