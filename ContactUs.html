@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - LocaConnect</title>
+    <link rel="stylesheet" href="/assets/CSS/ContactUs.css">
+</head>
+<body>
+    <section class="connect-section">
+        <h1>LET'S CONNECT</h1>
+        <div class="contact-details">
+            <div class="contact-item">
+                <span class="icon">📍</span>
+                <div>
+                    <h3>OUR MAIN OFFICE</h3>
+                    <p>Giza El-haram road </p>
+                </div>
+            </div>
+            <div class="contact-item">
+                <span class="icon">📞</span>
+                <div>
+                    <h3>PHONE NUMBER</h3>
+                    <p>+20-1090466292</p>
+                </div>
+            </div>
+       
+            <div class="contact-item">
+                <span class="icon">✉️</span>
+                <div>
+                    <h3>MAIL</h3>
+                    <p>ebrahemtamer639@gmail.com</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="connect-container">
+            <div class="contact-form">
+                <h2>GET A FREE CASE EVALUATION TODAY!</h2>
+                <p class="availability">AVAILABLE 24 HOURS A DAY!</p>
+                <form id="contactForm">
+                    <label for="name">Enter your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your Name">
+                    <span id="nameError" class="error-message"></span>
+
+                    <label for="email">Enter a valid email address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter a valid email address">
+                    <span id="emailError" class="error-message"></span>
+
+                    <label for="message">Enter your message</label>
+                    <textarea id="message" name="message" placeholder="Enter your message"></textarea>
+                    <span id="messageError" class="error-message"></span>
+
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+
+            <div class="map-embed">
+                <h2>WE ARE HERE</h2>
+                <p class="hours">SAT-THUR [10AM-5PM] / PHONES ARE OPEN 24/7</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3456.055150443439!2d31.158354000000003!3d29.977845000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjnCsDU4JzQwLjIiTiAzMcKwMDknMzAuMSJF!5e0!3m2!1sen!2seg!4v1745590863269!5m2!1sen!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Added Pop-up for success message -->
+    <div id="successPopup" class="popup">
+        <div class="popup-content">
+            <h2>Thank You! 🎉</h2>
+            <p>Your message has been sent successfully.</p><p>We’ll get back to you soon!</p>
+                
+            <button id="closePopup" class="popup-close-btn">Close</button>
+        </div>
+    </div>  
+
+    <script src="/assets/js/ContactUs.js"></script>
+</body>
+</html>
